@@ -40,7 +40,7 @@ The storage file is created at first run. It's generated and located at $HOME/Vo
 
 ## Build and Run
 
-Just click and go 4fun.
+Just simply build and run on Visual Studio.
 
 # Usage guide manual
 
