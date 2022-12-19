@@ -4,8 +4,8 @@ This application was created for educational purpose and implement basic CRUD op
 
 ## Specifications and requirements
 
-- Visual Studio 17 on Windows 10
-- Solution based (.sln)
+- Windows
+- Visual Studio 17 solution based (.sln)
 - C# Project based (.csproj)
 - JSON configuration based (.json)
 - ASP.Net Core (1.1)
