@@ -1,6 +1,6 @@
 # Overview
 
-This application was created for educational purpose and implement basic CRUD operations over two entities. It has the following characteristics and use the resources described below.
+This application was created for educational purpose and implement basic CRUD operations over two entities. It has the following characteristics and use the resources as described below.
 
 ## Specifications and requirements
 
@@ -19,7 +19,7 @@ This application was created for educational purpose and implement basic CRUD op
 
 # Technical overview and configurations
 
-Connection string setup is located on appsettings.json, on both projects.
+Connection string setup is defined on appsettings.json file, located inside both projects.
 
 ```js
 {
