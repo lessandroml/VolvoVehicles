@@ -1,0 +1,47 @@
+@model VolvoTrucks.Models.Truck
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Truck</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="TruckID" />
+        <dt>
+            @Html.DisplayNameFor(model => model.TruckID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TruckID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ModelYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ModelYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ManufacturingYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ManufacturingYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TruckModel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TruckModel.ModelName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

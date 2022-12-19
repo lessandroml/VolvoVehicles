@@ -1,0 +1,51 @@
+@model IEnumerable<VolvoTrucks.Models.Truck>
+@{
+    ViewData["Title"] = "Trucks";
+}
+<h2>Trucks</h2>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TruckID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModelYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManufacturingYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TruckModel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TruckID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModelYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ManufacturingYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TruckModel.ModelName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.TruckID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.TruckID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.TruckID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
