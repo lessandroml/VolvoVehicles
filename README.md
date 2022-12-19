@@ -1,6 +1,6 @@
 # Overview
 
-This application was created for educational purpose and implement basic CRUD operations over two entities. It has the following caracteristics and use the resources described below.
+This application was created for educational purpose and implement basic CRUD operations over two entities. It has the following characteristics and use the resources described below.
 
 ## Specifications and requirements
 
@@ -44,7 +44,28 @@ Just click and go 4fun.
 
 # Usage guide manual
 
-This application operates over these two entities: Trucks and Truck Models
+This application operates over these two entities: Truck Models and Trucks. The relation between each is 1.N respectively.
 
+## Truck operations
 
+- List all trucks 
+- Create a new truck
+- Edit a truck
+- Delete a truck
 
+## Truck model operations
+
+- List all truck models 
+- Create a new truck model
+- Edit a truck model
+- Delete a truck model (deletes trucks on cascade)
+
+## Truck form fieds
+
+- Manufacturing year (accept only the current year)
+- Model year (accept only the current or the next year)
+- Truck model (accept only FH ou FM prefixed models)
+
+## Truck model form fied
+
+- Truck Model name
