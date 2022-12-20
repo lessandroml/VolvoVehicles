@@ -11,9 +11,9 @@ This application was created for educational purpose and implements basic CRUD o
 - ASP.Net Core (1.1)
 - Ms SQL LocalDb
 - Entity Framework Core (1.1)
-- Migrations
+- Migrations (code first)
 - ORM
-- NUnit (3.13)
+- NUnit for testing (3.13)
 
 **ASP.Net Core Download** (https://dotnet.microsoft.com/en-us/download/dotnet/1.1)
 
