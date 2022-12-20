@@ -1,6 +1,6 @@
 # Overview
 
-This application was created for educational purpose and implement basic CRUD operations over two entities. It has the following characteristics and use the resources as described below.
+This application was created for educational purpose and implements basic CRUD operations on two entities. It has the following characteristics and uses the features described below.
 
 ## Specifications and requirements
 
@@ -19,7 +19,7 @@ This application was created for educational purpose and implement basic CRUD op
 
 # Technical overview and configurations
 
-Connection string setup is defined on appsettings.json file, located inside both projects.
+Connection string setup is defined in appsettings.json file, located inside both projects.
 
 ```js
 {
@@ -36,7 +36,7 @@ Connection string setup is defined on appsettings.json file, located inside both
 
 ## Storage
 
-The storage file is created at first run. It's generated and located at $HOME/VolvoVehicles.mdf by default.
+The storage file is created on first run. It's generated and located in $HOME/VolvoVehicles.mdf by default.
 
 ## Build and Run
 
@@ -44,7 +44,7 @@ Just simply build and run on Visual Studio.
 
 # Usage guide manual
 
-This application operates over these two entities: Truck Models and Trucks. The relation between each is 1.N respectively.
+This application operates on these two entities: Truck Models and Trucks. The relation between each is 1.N respectively.
 
 ## Truck operations
 
@@ -62,9 +62,9 @@ This application operates over these two entities: Truck Models and Trucks. The 
 
 ## Truck form fieds
 
-- Manufacturing year (accept only the current year)
+- Manufacturing year (accept the current year only)
 - Model year (accept only the current or the next year)
-- Truck model (accept only FH ou FM prefixed models)
+- Truck model (only accept models with FH or FM prefix)
 
 ## Truck model form fied
 
