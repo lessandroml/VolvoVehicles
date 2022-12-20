@@ -42,7 +42,7 @@ The storage file is created on first run. It's generated and located in $HOME/Vo
 
 Just simply build and run on Visual Studio.
 
-# Usage guide manual
+# User guide manual
 
 This application operates on these two entities: Truck Models and Trucks. The relation between each is 1.N respectively.
 
