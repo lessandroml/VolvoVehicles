@@ -44,7 +44,7 @@ Just simply build and run on Visual Studio.
 
 # User guide manual
 
-This application operates on these two entities: Truck Models and Trucks. The relation between each is 1.N respectively.
+This application operates on these two entities: Truck Models and Trucks. The relation between each one is 1.N respectively.
 
 ## Truck operations
 
