@@ -44,7 +44,7 @@ Just simply build and run on Visual Studio.
 
 ## Test cases
 
-The test cases cover all CRUD operation over the truck and truck model entities. To run the tests correctly, just activate the main script entitled VolvoTruck.Test in the visual studio test manager.
+The test cases cover all CRUD operation over the truck and truck model entities. To run the tests correctly, just activate the main script entitled VolvoTruck.Test in the Visual Studio test manager.
 
 # User guide manual
 
